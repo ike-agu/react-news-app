@@ -1,6 +1,11 @@
-# react-news-app
+# react-app
 
-A news app I'm building with react to practice my skills.
+## Newsly
+This is my second react app I'm building.
 
-- Description, installation , wins and challenges coming soon.
+A class code along exercise to practice my react skills 
 
+Newsly is a small app to generate news and jokes.
+
+
+Description, installation , wins and challenges coming soon.
