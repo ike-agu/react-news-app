@@ -2,11 +2,11 @@ nav {
     width: 100vw;
     position: fixed;
     top: 0;
-    background-color: rgb(15, 230, 165);
+    background-color: rgb(250, 231, 231);
     padding: 30px;
     display: flex;
     justify-content: space-around;
-    color: grey;
+    color: white;
 }
 
 a {
@@ -15,9 +15,14 @@ a {
 
 a:hover {
     color: black;
+    padding: 5px;
+    border-radius: 3px;
 }
 
 .active {
     color: black;
     font-weight: bolder;
+    background-color: aliceblue;
+    padding: 5px;
+    border-radius: 5px;
 }

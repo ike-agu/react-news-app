@@ -2,6 +2,9 @@
     width: 100vw;
     position: fixed;
     bottom: 0;
-    background-color: grey;
+    background-color: rgb(105, 101, 101);
     padding: 20px;
+    color: white;
+    text-align: center;
+
 }

@@ -44,10 +44,10 @@
 
 h1 {
     grid-area: hd;
-    /* font-family: 'Londrina Sketch', cursive; */
-    font-size: 4rem;
-    font-family: 'Rubik Moonrocks', cursive;
-    color: steelblue;
+    font-family: 'Londrina Sketch', cursive;
+    font-size: 5rem;
+    color: rgb(83, 77, 77);
+    margin-top: 150px;
 }
 
 main {
