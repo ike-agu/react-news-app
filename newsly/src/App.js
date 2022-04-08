@@ -9,10 +9,12 @@ const App = () => {
     <Routes>
       <Route path="/" element={<Layout />}>
         <Route index element={<Pages.Home />} />
+        <Route path="about" element={<Pages.About />} />
+        {/* <Route path="news" element={<Pages.News />} ></Route> */}
 
 
 
-     
+
       </Route>
     </Routes>
 
