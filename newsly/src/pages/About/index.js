@@ -1,4 +1,4 @@
 import React from 'react';
-// import './style.css';
+import './style.css';
 
-export const About = () => <h1>About Us</h1>
+export const About = () => <h1>About Us vibe box</h1>
