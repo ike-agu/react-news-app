@@ -1,0 +1,23 @@
+nav {
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    background-color: rgb(15, 230, 165);
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    color: grey;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+}
+
+.active {
+    color: black;
+    font-weight: bolder;
+}
