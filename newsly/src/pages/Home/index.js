@@ -1,4 +1,14 @@
 import React from 'react';
+import { Greeting } from '../../components';
 import './style.css';
 
-export const Home = () => <h1>Welcome to the Home page</h1>
+export const Home = () => {
+  return (
+
+    <>
+    <h1>Welcome to vibe box</h1>
+    <Greeting/>
+    </>
+
+  )
+}

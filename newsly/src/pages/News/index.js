@@ -1,6 +1,6 @@
 import React from 'react';
 import { Outlet } from 'react-router-dom';
-import { Greeting } from '../../components';
+import { Greeting, ReaderCount } from '../../components';
 import './style.css';
 
 export const News = () =>{
@@ -13,9 +13,8 @@ export const News = () =>{
     <aside>
       <Greeting/>
 
+      <ReaderCount />
     </aside>
-
-
 
      <section>
         <Outlet />
