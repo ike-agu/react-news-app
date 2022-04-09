@@ -1,5 +1,6 @@
 import React from 'react';
 import { Outlet } from 'react-router-dom';
+import { Greeting } from '../../components';
 import './style.css';
 
 export const News = () =>{
@@ -7,8 +8,14 @@ export const News = () =>{
   return(
 
   <div className="news-reader">
-    <h1>This is the section to render the news</h1>
-    <h1>A Real State of Events</h1>
+    <h1>Juicy Events</h1>
+
+    <aside>
+      <Greeting/>
+
+    </aside>
+
+
 
      <section>
         <Outlet />
