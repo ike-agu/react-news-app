@@ -19,7 +19,7 @@ export const Jokes = ({close}) => {
         }
       }
       tellMeAJoke()
-      const jokeIntervals = setInterval(tellMeAJoke, 5000)
+      const jokeIntervals = setInterval(tellMeAJoke, 8000)
       return () => clearInterval(jokeIntervals)
   }, [])
 

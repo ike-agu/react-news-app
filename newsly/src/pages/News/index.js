@@ -23,6 +23,8 @@ export const News = () =>{
         {showJokes ? <Jokes close={toggleJokes} /> : <button onClick={toggleJokes}>Tell me some Jokes!</button>}
       </article>
 
+      <img src="https://images.unsplash.com/photo-1572949645841-094f3a9c4c94?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" alt="newspapers"/>
+
 
     </aside>
 
